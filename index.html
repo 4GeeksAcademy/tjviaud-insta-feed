@@ -56,7 +56,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <i class="fa-solid fa-gear fa-spin"></i> settings                       
+                <i class="fa-solid fa-gear fa-spin"></i> settings
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Profile</a></li>
@@ -79,7 +79,9 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Post</h1>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Create New Post
+            </h1>
             <button
               type="button"
               class="btn-close"
@@ -89,14 +91,16 @@
           </div>
           <div class="modal-body">
             <form>
-              
               <div class="mb-3">
                 <label for="message-text" class="col-form-label"
                   >Caption:</label
                 >
-                <textarea class="form-control" id="message-text">Add the caption of your post here</textarea>
+                <textarea class="form-control" id="message-text">
+Add the caption of your post here</textarea
+                >
               </div>
-                <i class="fa-solid fa-camera"></i> <i class="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-camera"></i>
+              <i class="fa-solid fa-location-dot"></i>
             </form>
           </div>
           <div class="modal-footer">
@@ -112,43 +116,184 @@
         </div>
       </div>
     </div>
-<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
-        <button
-          class="nav-link active"
-          id="home-tab"
-          data-bs-toggle="tab"
-          data-bs-target="#detailView"
-          type="button"
-          role="tab"
-          aria-controls="detailView
-          aria-selected="true"
-        >
-          <i class="fa-solid fa-square"></i>
-        </button>
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+        data-bs-target="#detailView" type="button" role="tab"
+        aria-controls="detailView aria-selected="true" >
+        <i class="fa-solid fa-square"></i>
       </li>
       <li class="nav-item" role="presentation">
-        <button
-          class="nav-link"
-          id="profile-tab"
-          data-bs-toggle="tab"
-          data-bs-target="#gridView"
-          type="button"
-          role="tab"
-          aria-controls="gridView
-          aria-selected="false"
-        >
-          <i class="fa-solid fa-table-cells"></i>
-        </button>
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+        data-bs-target="#gridView" type="button" role="tab"
+        aria-controls="gridView aria-selected="false" >
+        <i class="fa-solid fa-table-cells"></i>
       </li>
     </ul>
-    <div class="tab-panel">
-      <div id="detailView" class="tab-pane fade" role="tabpanel" aria-labelledby="detail-tab"></div>
+    <div class="tab-content">
+      <div
+        id="detailView"
+        class="tab-pane fade show active"
+        role="tabpanel"
+        aria-labelledby="detail-tab"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <h5 class="card-title">Cat Modeling</h5>
+                <img
+                  src="https://img.freepik.com/free-photo/stunning-square-portrait-adorable-cute-cat_181624-37290.jpg"
+                />
+                <div class="card-body">
+                  <p class="card-text"><strong>908 Likes</strong></p>
+                  <p class="card-text">
+                    This is an example of a very good photo that you can post on
+                    instagram
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <h5 class="card-title">My Big Sur Trip!</h5>
+                <img
+                  src="https://explorewithalec.com/wp-content/uploads/2022/03/Big-sur-6S7A9753-scaled.jpg"
+                />
+                <div class="card-body">
+                  <p class="card-text"><strong>156 Likes</strong></p>
+                  <p class="card-text">
+                    This is an example of a very good photo that you can post on
+                    instagram
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <h5 class="card-title">Koenigsegg Jesko</h5>
+                <img
+                  src="https://cdn.motor1.com/images/mgl/BXXAQ4/s1/koenigsegg-jesko-absolut.webp"
+                />
+                <div class="card-body">
+                  <p class="card-text"><strong>209 Likes</strong></p>
+                  <p class="card-text">
+                    This is an example of a very good photo that you can post on
+                    instagram
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="gridView"
+          class="tab-pane fade"
+          role="tabpanel"
+          aria-labelledby="detail-tab"
+        >
+          <div class="container text-center">
+            <div
+              class="row g-2"
+              style="
+                margin-right: 2px;
+                margin-left: 2px;
+                display: flex;
+                flex-wrap: wrap;
+              "
+            >
+              <div class="col-4">
+                <div class="card" style="width: 25rem">
+                  <img
+                    src="https://media.istockphoto.com/id/545462228/photo/cat-playing-peek-a-boo-in-a-box.jpg?s=612x612&w=0&k=20&c=QlBKIL5t35Fj694ihunakEMK6M9GMs5CRwHCUNPPTeA="
+                    style="width: 100%; height: 200px; object-fit: cover"
+                  />
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" style="width: 25rem">
+                  <img
+                    src="https://cdn.motor1.com/images/mgl/BXXAQ4/s1/koenigsegg-jesko-absolut.webp"
+                    style="width: 100%; height: 200px; object-fit: cover"
+                  />
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" style="width: 25rem">
+                  <img
+                    src="https://www.livelikeitstheweekend.com/wp-content/uploads/2022/05/Big-sur-road-trip-feature-image.jpg"
+                    style="width: 100%; height: 200px; object-fit: cover"
+                  />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 25rem">
+                  <img
+                    src="https://res.cloudinary.com/dragonspell/images/w_480,h_480,c_fill,dpr_auto,fl_progressive:steep,f_auto/w_480,h_480,c_fill/v1682020269/www.travelportland.com/mktg-fr-20210627-oregon-coast-ecola-state-park-01_99432bf516/mktg-fr-20210627-oregon-coast-ecola-state-park-01_99432bf516.jpg"
+                    style="width: 100%; height: 200px; object-fit: cover"
+                  />
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" style="width: 25rem">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Gran_V%C3%ADa_%28Madrid%29_1.jpg/1200px-Gran_V%C3%ADa_%28Madrid%29_1.jpg"
+                    style="width: 100%; height: 200px; object-fit: cover"
+                  />
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" style="width: 25rem">
+                  <img
+                    src="https://ca-times.brightspotcdn.com/dims4/default/30b8bda/2147483647/strip/true/crop/2048x1075+0+38/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb8%2F23%2F2e3c2d27ff08e650d08f17439597%2Fla-1501262722-mfga74irzm-snap-image"
+                    style="width: 100%; height: 200px; object-fit: cover"
+                  />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 25rem">
+                  <img
+                    src="https://weathertechraceway.com/cdn/shop/files/2024_TONYCAMPBELL_WRLS-20240512-DSC03693_38ea94e7-a3f0-441f-a899-34fddd6d3233.jpg?v=1733256962&width=5088"
+                    style="width: 100%; height: 200px; object-fit: cover"
+                  />
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" style="width: 25rem">
+                  <img
+                    src="https://bugatti-newsroom.imgix.net/88da65f4-6976-4987-b6ef-0ee2939b8d7b/5lanlb9hhazm-01-bugatti-bolide-high-speed-launch-control.jpg?auto=format,compress&cs=srgb&sharp=10&w=380&dpr=2.625"
+                    style="width: 100%; height: 200px; object-fit: cover"
+                  />
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" style="width: 25rem">
+                  <img
+                    src="https://www.nps.gov/yose/learn/nature/images/Many-famous-features-of-Yosemite-National-Park-result-from-glaciers-working-on-granitic-bedrock.jpg"
+                    style="width: 100%; height: 200px; object-fit: cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"
+      ></script>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
